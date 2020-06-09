@@ -10,6 +10,19 @@ set -e  # exit immediately on error
 # a.k.a.> . .../emsdk_clone/emsdk_env.sh
 
 
+# HTML5-TPS NOTES:
+#
+# this script is based on:
+# https://github.com/UnrealEngineHTML5/UnrealEngine/blob/4.24-html5/Engine/Platforms/HTML5/Build/BatchFiles/Build_All_HTML5_libs.sh
+#
+# modified to just build opensource thirdparty software (TPS) used in UE4 HTML5
+# for testing purposes (we are seeing strange SSD build errors):
+# https://github.com/UnrealEngineHTML5/Documentation/issues/5
+#
+# created new repo to help narrow down TPS build errors
+# as well as testing new emscripten toolchain versions
+
+
 # --------------------------------------------------------------------------------
 # prechecks
 
@@ -46,8 +59,8 @@ export UE_SIMD=0 # TEST TEST TEST .. this is WIP
 # --------------------------------------------------------------------------------
 # helpers for new "platforms" path
 
-export UE4_TPS_SRC="$(pwd)/../../../../Source/ThirdParty"
-export HTML5_TPS_LIBS="$(pwd)/../../Source/ThirdParty"
+export UE4_TPS_SRC="$(pwd)/../../UE4_ThirdParty"
+export HTML5_TPS_LIBS="$(pwd)/../../HTML5_ThirdParty"
 TPS_HTML5_SCRIPTS="$(pwd)/ThirdParty"
 
 

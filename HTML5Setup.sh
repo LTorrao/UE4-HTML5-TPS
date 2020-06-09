@@ -1,8 +1,24 @@
 #!/usr/bin/env bash
-# Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+# Copyright Epic Games, Inc. All Rights Reserved.
 
 set -e  # exit immediately on error
 #set -x  # print commands
+
+
+# --------------------------------------------------------------------------------
+
+
+# HTML5-TPS NOTES:
+#
+# this script is based on:
+# https://github.com/UnrealEngineHTML5/UnrealEngine/blob/4.24-html5/Engine/Platforms/HTML5/HTML5Setup.sh
+#
+# modified to just build opensource thirdparty software (TPS) used in UE4 HTML5
+# for testing purposes (we are seeing strange SSD build errors):
+# https://github.com/UnrealEngineHTML5/Documentation/issues/5
+#
+# created new repo to help narrow down TPS build errors
+# as well as testing new emscripten toolchain versions
 
 
 # --------------------------------------------------------------------------------
@@ -41,8 +57,6 @@ fi
 
 SCRIPTDIR="${0%/*}"
 H5PLATFORM=$(cd $SCRIPTDIR; pwd)
-H5PATCHES="$H5PLATFORM/Build/PatchFiles/emsdk-$EMVER"
-ENGINE=$(cd $H5PLATFORM/../..; pwd)
 
 # using Intermediate path that is also used during UE4 HTML5 packaging
 export HOME="$H5PLATFORM/Intermediate"
@@ -54,169 +68,14 @@ fi
 LOG_FILE="$HOME/zzz_warnings.txt"
 echo "" > "$LOG_FILE"
 
-
 # --------------------------------------------------------------------------------
-# PATCH Unreal Engine Files
-
-patch_UBT_HTML5()
-{
-	# inject HTML5 platform back into UnrealBuildTool.csproj
-	# https://github.com/UnrealEngineHTML5/Documentation/blob/master/Platforms/HTML5/HowTo/README.1.emscripten.UE4.HTML5.md#unrealbuildtool-html5-injection
-
-	# backup original jic...
-	csproj="$ENGINE/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj"
-	if [ ! -e $csproj.save ]; then
-		mv $csproj $csproj.save
-	fi
-HTML5PLATFORM=$(cat <<__UBT_HTMLFIVE
-	<When Condition="Exists('Platform\\\\HTML5\\\\UEBuildHTML5.cs')">
-      <ItemGroup>
-        <Compile Include="Platform\\\\HTML5\\\\HTML5ProjectGenerator.cs" />
-        <Compile Include="Platform\\\\HTML5\\\\HTML5ToolChain.cs" />
-        <Compile Include="Platform\\\\HTML5\\\\UEBuildHTML5.cs" />
-        <Compile Include="Platform\\\\HTML5\\\\HTML5SDKInfo.cs" />
-      </ItemGroup>
-    </When>
-  </Choose>
-  <Choose>
-__UBT_HTMLFIVE
-)
-	cat $csproj.save | perl -p -e s"!(.*Exists.*UEBuildLinux.*)!$HTML5PLATFORM\n\1!" > $csproj
-}
-patch_UBT_HTML5
-
-patch_AutoTool_HTML5()
-{
-	# inject HTML5LaunchHelper in to visual studio programs list
-
-	# backup original jic...
-	csproj="$ENGINE/Source/Programs/AutomationTool/Scripts/BuildCommonTools.Automation.cs"
-	if [ ! -e $csproj.save ]; then
-		mv $csproj $csproj.save
-	fi
-HTML5PLATFORM=$(cat <<__AT_HTMLFIVE
-		// HTML5 binaries
-// NOTE: even removing this check -- HTML5LaunchHelper is still not getting
-//       automatically getting included in the UE4.sln after running:
-//       GenerateProjectFiles.bat
-// HELP WANTED: would be greatly appreciated ^_^
-// P.S. -- HTML5LaunchHelper isn't really needed (unless you reeeeeally want to Launch from Editor)
-//      -- you can use the "simple python http server" instead of HTML5LaunchHelper:
-//         https://github.com/UnrealEngineHTML5/Documentation/blob/master/Platforms/HTML5/HowTo/README.1.emscripten.UE4.HTML5.md#on-windows-mac-or-linux-via-command-line
-//		if (Platforms.Contains(UnrealBuildTool.UnrealTargetPlatform.HTML5))
-		{
-			Agenda.DotNetProjects.Add(@"Engine/Platforms/HTML5/Source/Programs/HTML5/HTML5LaunchHelper/HTML5LaunchHelper.csproj");
-			ExtraBuildProducts.Add(CommandUtils.CombinePaths(CommandUtils.CmdEnv.LocalRoot, @"Engine/Binaries/DotNET/HTML5LaunchHelper.exe"));
-		}
-
-__AT_HTMLFIVE
-)
-	cat $csproj.save | perl -p -e s"!(.*return Agenda.*)!$HTML5PLATFORM\n\1!" > $csproj
-}
-patch_AutoTool_HTML5
-
-patch_UE4_code()
-{
-	# ----------------------------------------
-	# this file was not checked in to demonstrate how to fix this important bug
-	# https://github.com/UnrealEngineHTML5/Documentation/blob/master/Platforms/HTML5/HowTo/README.4.faq.UE4.HTML5.md#tobool63i--icmp-slt-i176
-
-	# backup original jic...
-	scene_h="$ENGINE/Source/Runtime/Engine/Classes/Engine/Scene.h"
-	if [ ! -e $scene_h.save ]; then
-		mv $scene_h $scene_h.save
-	fi
-	cat $scene_h.save | perl -0p -e "s/uint\d+\s+(.+)\s?:\s?1;/bool \1;/g" > $scene_h
-
-	# ----------------------------------------
-	# sigh...
-	if [[ $SYSTEM == 'Darwin' ]]; then
-		chmod +x $ENGINE/Binaries/ThirdParty/Python/Mac/bin/python*
-	fi
-
-	# ----------------------------------------
-	# 4.24.3 fixes
-	# backup original jic...
-	systemtextures_cpp="$ENGINE/Source/Runtime/Renderer/Private/SystemTextures.cpp"
-	if [ ! -e $systemtextures_cpp.save ]; then
-		mv $systemtextures_cpp $systemtextures_cpp.save
-	fi
-REPLACE_CODE='#ifdef __EMSCRIPTEN__
-\1PF_B8G8R8A8\3
-#else
-\1\2\3
-#endif'
-	cat $systemtextures_cpp.save | perl -0p -e "s/(.*)(PF_R32_UINT)(.*)/$REPLACE_CODE/" > $systemtextures_cpp
-}
-patch_UE4_code
-
-patch_emscripten()
-{
-	empath="upstream/emscripten"
-# \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-# XXX this is temp until upstream becomes fully default
-if [ ! -d $empath ]; then
-	empath="fastcomp/emscripten"
-fi
-# ////////////////////////////////////////
-	if [ ! -d $empath ]; then
-		echo "ERROR: emsdk-$EMVER is missing"
-		exit -1
-	fi
-
-	# try to apply EPIC EDIT patches:
-	# - https://github.com/UnrealEngineHTML5/Documentation/blob/master/Platforms/HTML5/HowTo/README.1.emscripten.UE4.HTML5.md#patching-emscripten
-	if [ ! -d "$H5PATCHES" ]; then
-		cat << EPIC_EDIT_PATCHES >> "$LOG_FILE"
-
-
-WARNING: no 'EPIC EDIT' patches folder found.
-         this means that VANILLA emscripten toolchain ($EMVER) was used.
-
-NOTE: this script can just be re-run if patchfile folder was created.
-
-for more information, please see:
-	https://github.com/UnrealEngineHTML5/Documentation/blob/master/Platforms/HTML5/HowTo/README.1.emscripten.UE4.HTML5.md#patching-emscripten
-
-
-EPIC_EDIT_PATCHES
-	else
-		if [ -d "$H5PATCHES/emscripten" ]; then
-			cp -r $H5PATCHES/emscripten/* $empath/.
-		fi
-		if [[ $SYSTEM == *'_NT-'* ]]; then
-# TODO: now that python3 is default -- need to see if windows python(2) patches are still needed for python3...
-# for now, do not print warnings as python3 seems to work "as-is" with ue4 - 4.24.3
-#			# python on windows is a little broken...
-#			if [ -d "$H5PATCHES/python-2.7.13.1_win64only/Lib" ]; then
-#				if [ -d python/2.7.13.1_64bit/python-2.7.13.amd64/Lib ]; then
-#					cp -r $H5PATCHES/python-2.7.13.1_win64only/Lib/* python/2.7.13.1_64bit/python-2.7.13.amd64/Lib/.
-#				else
-#					echo "WARNING: emsdk-$EMVER (windows) python PATH NOT FOUND -- skipping EPIC patches here" >> "$LOG_FILE"
-#				fi
-#			fi
-		fi
-	fi
-
-
-	# ----------------------------------------
-	# SIMD is WIP...
-#	upstream/emscripten/system/include/wasm_simd128.h:// EPIC EDIT -- xmmintrin.h -- START
-#	upstream/emscripten/system/include/wasm_simd128.h:// EPIC EDIT -- xmmintrin.h -- END
-#	upstream/emscripten/system/include/wasm_simd128.h:// EPIC EDIT -- emmintrin.h -- START
-#	upstream/emscripten/system/include/wasm_simd128.h:// EPIC EDIT -- emmintrin.h -- END
-
-}
-
-
-# --------------------------------------------------------------------------------
-if [ ! -d "Build/emsdk" ]; then
-	mkdir -p Build/emsdk
+if [ ! -d "HTML5_Build/emsdk" ]; then
+	mkdir -p HTML5_Build/emsdk
 fi
 
 fetch_emscripten()
 {
-	cd "$H5PLATFORM/Build/emsdk"
+	cd "$H5PLATFORM/HTML5_Build/emsdk"
 
 	DO_INSTALL=1
 	if [[ -d "emsdk-$EMVER" && -e "emsdk-$EMVER/emsdk" ]]; then
@@ -240,15 +99,13 @@ fetch_emscripten()
 		fi
 		./emsdk activate $MINGVER
 	fi
-
-	patch_emscripten
 }
 
 build_thirdparty_libs()
 {
 	llvmbackend=$1
 
-	cd "$H5PLATFORM/Build/BatchFiles"
+	cd "$H5PLATFORM/HTML5_Build/BatchFiles"
 
 	. ../emsdk/emsdk-$EMVER/emsdk_env.sh
 
