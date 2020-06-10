@@ -1,0 +1,120 @@
+"C:\Program Files\CMake\bin\cmake.exe" -SE:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0 -BE:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\FreeType2-2.10.0\BUILD_Oz --check-build-system CMakeFiles\Makefile.cmake 0
+E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\Makefile2 freetype
+mingw32-make.exe[1]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/FreeType2-2.10.0/BUILD_Oz'
+"C:\Program Files\CMake\bin\cmake.exe" -SE:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0 -BE:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\FreeType2-2.10.0\BUILD_Oz --check-build-system CMakeFiles\Makefile.cmake 0
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_progress_start E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\FreeType2-2.10.0\BUILD_Oz\CMakeFiles 41
+E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\Makefile2 CMakeFiles/freetype.dir/all
+mingw32-make.exe[2]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/FreeType2-2.10.0/BUILD_Oz'
+E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\freetype.dir\build.make CMakeFiles/freetype.dir/depend
+mingw32-make.exe[3]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/FreeType2-2.10.0/BUILD_Oz'
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0 E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0 E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\FreeType2-2.10.0\BUILD_Oz E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\FreeType2-2.10.0\BUILD_Oz E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\FreeType2-2.10.0\BUILD_Oz\CMakeFiles\freetype.dir\DependInfo.cmake --color=
+Dependee "E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\FreeType2-2.10.0\BUILD_Oz\CMakeFiles\freetype.dir\DependInfo.cmake" is newer than depender "E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/FreeType2-2.10.0/BUILD_Oz/CMakeFiles/freetype.dir/depend.internal".
+Dependee "E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/FreeType2-2.10.0/BUILD_Oz/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/FreeType2-2.10.0/BUILD_Oz/CMakeFiles/freetype.dir/depend.internal".
+[35m[1mScanning dependencies of target freetype[0m
+mingw32-make.exe[3]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/FreeType2-2.10.0/BUILD_Oz'
+E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\freetype.dir\build.make CMakeFiles/freetype.dir/build
+mingw32-make.exe[3]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/FreeType2-2.10.0/BUILD_Oz'
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/fttype1.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftstroke.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftotval.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftglyph.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/pfr/pfr.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/gzip/ftgzip.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/cff/cff.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftfstype.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/pshinter/pshinter.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftmm.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/lzw/ftlzw.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/raster/raster.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/truetype/truetype.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/type1/type1.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftgasp.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftgxval.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftcid.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftsynth.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\fttype1.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\fttype1.c
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftpfr.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/cid/type1cid.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/psaux/psaux.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftsystem.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftbitmap.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftwinfnt.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftbdf.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/autofit/autofit.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftbbox.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftbase.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/bdf/bdf.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/type42/type42.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftpatent.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftinit.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/pcf/pcf.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftbitmap.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftbitmap.c
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/base/ftdebug.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/winfonts/winfnt.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftcid.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftcid.c
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftfstype.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftfstype.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftbbox.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftbbox.c
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/smooth/smooth.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/cache/ftcache.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftgasp.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftgasp.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftglyph.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftglyph.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftgxval.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftgxval.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftmm.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftmm.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftotval.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftotval.c
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/psnames/psnames.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/freetype.dir/src/sfnt/sfnt.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftpatent.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftpatent.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftinit.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftinit.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftpfr.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftpfr.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftstroke.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftstroke.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\autofit\autofit.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\autofit\autofit.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftbase.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftbase.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftbdf.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftbdf.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftsynth.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftsynth.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftsystem.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftsystem.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftwinfnt.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftwinfnt.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\bdf\bdf.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\bdf\bdf.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\bzip2\ftbzip2.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\bzip2\ftbzip2.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\cache\ftcache.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\cache\ftcache.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\cff\cff.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\cff\cff.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\cid\type1cid.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\cid\type1cid.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\gzip\ftgzip.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\gzip\ftgzip.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\lzw\ftlzw.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\lzw\ftlzw.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\pcf\pcf.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\pcf\pcf.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\pfr\pfr.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\pfr\pfr.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\psaux\psaux.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\psaux\psaux.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\pshinter\pshinter.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\pshinter\pshinter.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\psnames\psnames.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\psnames\psnames.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\raster\raster.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\raster\raster.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\sfnt\sfnt.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\sfnt\sfnt.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\smooth\smooth.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\smooth\smooth.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\truetype\truetype.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\truetype\truetype.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\type1\type1.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\type1\type1.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\type42\type42.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\type42\type42.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\winfonts\winfnt.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\winfonts\winfnt.c
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DFT2_BUILD_LIBRARY @CMakeFiles/freetype.dir/includes_C.rsp -Oz -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -fvisibility=hidden   -o CMakeFiles\freetype.dir\src\base\ftdebug.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\base\ftdebug.c
+In file included from E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\autofit\autofit.c:34:
+E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\FreeType2\FreeType2-2.10.0\src\autofit/afshaper.c:136:5: warning: 'hb_ot_tags_from_script' is deprecated [-Wdeprecated-declarations]
+    hb_ot_tags_from_script( script,
+    ^
+E:/TPS_HDD/UE4-HTML5-TPS/UE4_ThirdParty/HarfBuzz/harfbuzz-2.4.0/src/hb-ot-deprecated.h:58:11: note: 'hb_ot_tags_from_script' has been explicitly marked deprecated here
+HB_EXTERN HB_DEPRECATED_FOR (hb_ot_tags_from_script_and_language) void
+          ^
+E:/TPS_HDD/UE4-HTML5-TPS/UE4_ThirdParty/HarfBuzz/harfbuzz-2.4.0/src/hb-common.h:83:30: note: expanded from macro 'HB_DEPRECATED_FOR'
+#define HB_DEPRECATED_FOR(f) HB_DEPRECATED
+                             ^
+E:/TPS_HDD/UE4-HTML5-TPS/UE4_ThirdParty/HarfBuzz/harfbuzz-2.4.0/src/hb-common.h:71:38: note: expanded from macro 'HB_DEPRECATED'
+#define HB_DEPRECATED __attribute__((__deprecated__))
+                                     ^
+1 warning generated.
+[100%] [32m[1mLinking C static library libfreetype.bc[0m
+"C:\Program Files\CMake\bin\cmake.exe" -P CMakeFiles\freetype.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\freetype.dir\link.txt --verbose=1
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -o libfreetype.bc  @CMakeFiles\freetype.dir\objects1.rsp
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+mingw32-make.exe[3]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/FreeType2-2.10.0/BUILD_Oz'
+[100%] Built target freetype
+mingw32-make.exe[2]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/FreeType2-2.10.0/BUILD_Oz'
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_progress_start E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\FreeType2-2.10.0\BUILD_Oz\CMakeFiles 0
+mingw32-make.exe[1]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/FreeType2-2.10.0/BUILD_Oz'

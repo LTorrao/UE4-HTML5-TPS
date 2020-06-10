@@ -1,0 +1,1 @@
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\em++.bat -o APEX_Loader_O3.bc  @CMakeFiles\APEX_Loader.dir\objects1.rsp

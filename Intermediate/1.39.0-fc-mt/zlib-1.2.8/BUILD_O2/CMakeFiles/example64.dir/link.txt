@@ -1,0 +1,1 @@
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -O2 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value  -O2 @CMakeFiles\example64.dir\objects1.rsp  -o example64.js @CMakeFiles\example64.dir\linklibs.rsp

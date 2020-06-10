@@ -901,7 +901,11 @@ double StringToDoubleConverter::StringToIeee(
 
       ASSERT(buffer_pos == 0);
       *processed_characters_count = static_cast<int>(current - input);
+#ifdef __EMSCRIPTEN__
+        return junk_string_value_;
+#else
       return sign ? -Double::NaN() : Double::NaN();
+#endif
     }
   }
 

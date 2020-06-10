@@ -48,6 +48,16 @@ list(REMOVE_ITEM HARFBUZZ_SRC_FILES
 	"${CMAKE_CURRENT_SOURCE_DIR}/../src/test-would-substitute.cc"
 	)
 
+# seems there are more test files that needs to be filtered out...
+list(REMOVE_ITEM HARFBUZZ_SRC_FILES
+	"${CMAKE_CURRENT_SOURCE_DIR}/../src/dump-indic-data.cc"
+	"${CMAKE_CURRENT_SOURCE_DIR}/../src/dump-khmer-data.cc"
+	"${CMAKE_CURRENT_SOURCE_DIR}/../src/dump-myanmar-data.cc"
+	"${CMAKE_CURRENT_SOURCE_DIR}/../src/dump-use-data.cc"
+	"${CMAKE_CURRENT_SOURCE_DIR}/../src/test-iter.cc"
+	"${CMAKE_CURRENT_SOURCE_DIR}/../src/test-unicode-ranges.cc"
+	)
+
 # Include our configuration header
 add_definitions(-DHAVE_CONFIG_H)
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/src")

@@ -1,0 +1,44 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Windows - 10.0.19041 - AMD64
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libogg-1.2.2/BUILD_O2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe cmTC_9216e/fast && E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9216e.dir\build.make CMakeFiles/cmTC_9216e.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libogg-1.2.2/BUILD_O2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9216e.dir/INCLUDE_INTTYPES_H.c.o
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat   -IE:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/fastcomp/emscripten/system/include/libc    -o CMakeFiles\cmTC_9216e.dir\INCLUDE_INTTYPES_H.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libogg-1.2.2\BUILD_O2\CMakeFiles\CheckIncludeFiles\INCLUDE_INTTYPES_H.c
+Linking C executable cmTC_9216e.js
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9216e.dir\link.txt --verbose=1
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -IE:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/fastcomp/emscripten/system/include/libc     @CMakeFiles\cmTC_9216e.dir\objects1.rsp  -o cmTC_9216e.js 
+mingw32-make.exe[1]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libogg-1.2.2/BUILD_O2/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libogg-1.2.2/BUILD_O2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe cmTC_db489/fast && E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\cmTC_db489.dir\build.make CMakeFiles/cmTC_db489.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libogg-1.2.2/BUILD_O2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db489.dir/INCLUDE_STDINT_H.c.o
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat   -IE:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/fastcomp/emscripten/system/include/libc    -o CMakeFiles\cmTC_db489.dir\INCLUDE_STDINT_H.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libogg-1.2.2\BUILD_O2\CMakeFiles\CheckIncludeFiles\INCLUDE_STDINT_H.c
+Linking C executable cmTC_db489.js
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_db489.dir\link.txt --verbose=1
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -IE:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/fastcomp/emscripten/system/include/libc     @CMakeFiles\cmTC_db489.dir\objects1.rsp  -o cmTC_db489.js 
+mingw32-make.exe[1]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libogg-1.2.2/BUILD_O2/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libogg-1.2.2/BUILD_O2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe cmTC_25a9e/fast && E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\cmTC_25a9e.dir\build.make CMakeFiles/cmTC_25a9e.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libogg-1.2.2/BUILD_O2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25a9e.dir/INCLUDE_SYS_TYPES_H.c.o
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat   -IE:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/fastcomp/emscripten/system/include/libc    -o CMakeFiles\cmTC_25a9e.dir\INCLUDE_SYS_TYPES_H.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libogg-1.2.2\BUILD_O2\CMakeFiles\CheckIncludeFiles\INCLUDE_SYS_TYPES_H.c
+Linking C executable cmTC_25a9e.js
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_25a9e.dir\link.txt --verbose=1
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -IE:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/fastcomp/emscripten/system/include/libc     @CMakeFiles\cmTC_25a9e.dir\objects1.rsp  -o cmTC_25a9e.js 
+mingw32-make.exe[1]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libogg-1.2.2/BUILD_O2/CMakeFiles/CMakeTmp'
+
+
+

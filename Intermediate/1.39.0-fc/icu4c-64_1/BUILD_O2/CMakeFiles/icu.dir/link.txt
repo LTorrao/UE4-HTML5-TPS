@@ -1,0 +1,1 @@
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\em++.bat -o E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\icu4c-64_1\libicu.bc  @CMakeFiles\icu.dir\objects1.rsp

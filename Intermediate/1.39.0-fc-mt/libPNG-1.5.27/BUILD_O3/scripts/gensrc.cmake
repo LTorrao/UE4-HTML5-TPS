@@ -1,0 +1,98 @@
+# gensrc.cmake.in
+# Generate source files with awk, based upon the automake logic.
+
+# Copyright (C) 2016 Glenn Randers-Pehrson
+# Written by Roger Leigh, 2016
+
+# This code is released under the libpng license.
+# For conditions of distribution and use, see the disclaimer
+# and license in png.h
+
+# Variables substituted from CMakeLists.txt
+set(SRCDIR "E:/TPS_HDD/UE4-HTML5-TPS/UE4_ThirdParty/libPNG/libPNG-1.5.27")
+set(BINDIR "E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libPNG-1.5.27/BUILD_O3")
+
+set(AWK "AWK-NOTFOUND")
+set(DFA_XTRA "")
+set(PNG_PREFIX "")
+set(PNGLIB_VERSION "1.5.27")
+
+if("${OUTPUT}" STREQUAL "scripts/pnglibconf.c")
+  # Generate scripts/pnglibconf.c
+
+  file(REMOVE "${BINDIR}/pnglibconf.tf6" "${BINDIR}/pnglibconf.tf7")
+
+  execute_process(COMMAND "${CMAKE_COMMAND}" -E echo "com ${PNGLIB_VERSION} STANDARD API DEFINITION"
+                  COMMAND "${AWK}" -f "${SRCDIR}/scripts/options.awk"
+                          "out=pnglibconf.tf6" "logunsupported=1" "version=search"
+                          "${SRCDIR}/pngconf.h" "-"
+                          "${SRCDIR}/scripts/pnglibconf.dfa"
+                  WORKING_DIRECTORY "${BINDIR}"
+                  RESULT_VARIABLE AWK_FAIL)
+  if(AWK_FAIL)
+    message(FATAL_ERROR "Failed to generate pnglibconf.tf6")
+  endif()
+
+  execute_process(COMMAND "${AWK}" -f "${SRCDIR}/scripts/options.awk"
+                  "out=pnglibconf.tf7" "pnglibconf.tf6"
+                  WORKING_DIRECTORY "${BINDIR}"
+                  RESULT_VARIABLE AWK_FAIL)
+  if(AWK_FAIL)
+    message(FATAL_ERROR "Failed to generate pnglibconf.tf7")
+  endif()
+
+  file(REMOVE "pnglibconf.tf6")
+  file(MAKE_DIRECTORY "${BINDIR}/scripts")
+  file(RENAME "pnglibconf.tf7" "${BINDIR}/scripts/pnglibconf.c")
+
+elseif ("${OUTPUT}" STREQUAL "pnglibconf.c")
+  # Generate pnglibconf.c
+
+  file(REMOVE "${BINDIR}/pnglibconf.tf4" "${BINDIR}/pnglibconf.tf5")
+
+  execute_process(COMMAND "${AWK}" -f "${SRCDIR}/scripts/options.awk"
+                  out=pnglibconf.tf4 version=search
+                  ${SRCDIR}/pngconf.h ${SRCDIR}/scripts/pnglibconf.dfa
+                  ${SRCDIR}/pngusr.dfa ${DFA_XTRA}
+                  WORKING_DIRECTORY "${BINDIR}"
+                  RESULT_VARIABLE AWK_FAIL)
+  if(AWK_FAIL)
+    message(FATAL_ERROR "Failed to generate pnglibconf.tf4")
+  endif()
+
+  execute_process(COMMAND "${AWK}" -f "${SRCDIR}/scripts/options.awk"
+                  out=pnglibconf.tf5 pnglibconf.tf4
+                  WORKING_DIRECTORY "${BINDIR}"
+                  RESULT_VARIABLE AWK_FAIL)
+  if(AWK_FAIL)
+    message(FATAL_ERROR "Failed to generate pnglibconf.tf5")
+  endif()
+
+  file(REMOVE "pnglibconf.tf4")
+  file(MAKE_DIRECTORY "${BINDIR}/scripts")
+  file(RENAME "pnglibconf.tf5" "${BINDIR}/pnglibconf.c")
+
+elseif ("${OUTPUT}" STREQUAL "pnglibconf.h")
+  # Generate pnglibconf.h
+
+  file(REMOVE "${BINDIR}/${OUTPUT}")
+  execute_process(COMMAND "${CMAKE_COMMAND}" -E copy "${BINDIR}/pnglibconf.out"
+                                                     "${BINDIR}/${OUTPUT}"
+                  RESULT_VARIABLE COPY_FAIL)
+  if(COPY_FAIL)
+    message(FATAL_ERROR "Failed to create pnglibconf.h")
+  endif()
+
+elseif("${OUTPUT}" STREQUAL "scripts/pnglibconf.h.prebuilt")
+  # Generate scripts/pnglibconf.h.prebuilt (fails build)
+
+  message(STATUS "Attempting to build scripts/pnglibconf.h.prebuilt")
+  message(STATUS "This is a machine generated file, but if you want to make")
+  message(STATUS "a new one simply build the 'genfiles' target, and copy")
+  message(STATUS "scripts/pnglibconf.out to scripts/pnglibconf.h.prebuilt")
+  message(STATUS "AND set PNG_ZLIB_VERNUM to 0 (you MUST do this)")
+  message(FATAL_ERROR "Stopping build")
+
+else()
+  message(FATAL_ERROR "Unsupported output: ${OUTPUT}")
+endif()

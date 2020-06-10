@@ -1,0 +1,68 @@
+"C:\Program Files\CMake\bin\cmake.exe" -SE:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27 -BE:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2 --check-build-system CMakeFiles\Makefile.cmake 0
+E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\Makefile2 png_static
+mingw32-make.exe[1]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'
+"C:\Program Files\CMake\bin\cmake.exe" -SE:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27 -BE:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2 --check-build-system CMakeFiles\Makefile.cmake 0
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_progress_start E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2\CMakeFiles 16
+E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\Makefile2 CMakeFiles/png_static.dir/all
+mingw32-make.exe[2]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'
+E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\genfiles.dir\build.make CMakeFiles/genfiles.dir/depend
+mingw32-make.exe[3]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27 E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27 E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2 E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2 E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2\CMakeFiles\genfiles.dir\DependInfo.cmake --color=
+Dependee "E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2\CMakeFiles\genfiles.dir\DependInfo.cmake" is newer than depender "E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2/CMakeFiles/genfiles.dir/depend.internal".
+Dependee "E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2/CMakeFiles/genfiles.dir/depend.internal".
+[35m[1mScanning dependencies of target genfiles[0m
+mingw32-make.exe[3]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'
+E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\genfiles.dir\build.make CMakeFiles/genfiles.dir/build
+mingw32-make.exe[3]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'
+mingw32-make.exe[3]: Nothing to be done for 'CMakeFiles/genfiles.dir/build'.
+mingw32-make.exe[3]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'
+[  0%] Built target genfiles
+E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\png_static.dir\build.make CMakeFiles/png_static.dir/depend
+mingw32-make.exe[3]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27 E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27 E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2 E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2 E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2\CMakeFiles\png_static.dir\DependInfo.cmake --color=
+Dependee "E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2\CMakeFiles\png_static.dir\DependInfo.cmake" is newer than depender "E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2/CMakeFiles/png_static.dir/depend.internal".
+Dependee "E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2/CMakeFiles/png_static.dir/depend.internal".
+[35m[1mScanning dependencies of target png_static[0m
+mingw32-make.exe[3]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'
+E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\png_static.dir\build.make CMakeFiles/png_static.dir/build
+mingw32-make.exe[3]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'
+[  6%] [32mBuilding C object CMakeFiles/png_static.dir/png.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\png.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\png.c
+[ 12%] [32mBuilding C object CMakeFiles/png_static.dir/pngerror.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngerror.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngerror.c
+[ 18%] [32mBuilding C object CMakeFiles/png_static.dir/pngget.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngget.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngget.c
+[ 25%] [32mBuilding C object CMakeFiles/png_static.dir/pngmem.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngmem.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngmem.c
+[ 31%] [32mBuilding C object CMakeFiles/png_static.dir/pngpread.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngpread.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngpread.c
+[ 37%] [32mBuilding C object CMakeFiles/png_static.dir/pngread.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngread.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngread.c
+[ 43%] [32mBuilding C object CMakeFiles/png_static.dir/pngrio.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngrio.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngrio.c
+[ 50%] [32mBuilding C object CMakeFiles/png_static.dir/pngrtran.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngrtran.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngrtran.c
+[ 56%] [32mBuilding C object CMakeFiles/png_static.dir/pngrutil.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngrutil.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngrutil.c
+[ 62%] [32mBuilding C object CMakeFiles/png_static.dir/pngset.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngset.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngset.c
+[ 68%] [32mBuilding C object CMakeFiles/png_static.dir/pngtrans.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngtrans.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngtrans.c
+[ 75%] [32mBuilding C object CMakeFiles/png_static.dir/pngwio.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngwio.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngwio.c
+[ 81%] [32mBuilding C object CMakeFiles/png_static.dir/pngwrite.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngwrite.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngwrite.c
+[ 87%] [32mBuilding C object CMakeFiles/png_static.dir/pngwtran.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngwtran.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngwtran.c
+[ 93%] [32mBuilding C object CMakeFiles/png_static.dir/pngwutil.c.o[0m
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/png_static.dir/includes_C.rsp -O2 -DNDEBUG -s WASM=1 -Wno-implicit-function-declaration -I"/e/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/BatchFiles/../../HTML5_ThirdParty/zlib/v1.2.8/include"   -o CMakeFiles\png_static.dir\pngwutil.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\UE4_ThirdParty\libPNG\libPNG-1.5.27\pngwutil.c
+[100%] [32m[1mLinking C static library libpng15.bc[0m
+"C:\Program Files\CMake\bin\cmake.exe" -P CMakeFiles\png_static.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\png_static.dir\link.txt --verbose=1
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -o libpng15.bc  @CMakeFiles\png_static.dir\objects1.rsp
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+mingw32-make.exe[3]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'
+[100%] Built target png_static
+mingw32-make.exe[2]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_progress_start E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\libPNG-1.5.27\BUILD_O2\CMakeFiles 0
+mingw32-make.exe[1]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/libPNG-1.5.27/BUILD_O2'

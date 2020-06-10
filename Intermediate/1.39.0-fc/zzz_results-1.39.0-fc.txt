@@ -1,0 +1,56 @@
+[100%] [32m[1mLinking C static library libfreetype.bc[0m
+[100%] [32m[1mLinking C static library libfreetype.bc[0m
+[100%] [32m[1mLinking C static library libfreetype.bc[0m
+[100%] [32m[1mLinking CXX static library E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\harfbuzz-2.4.0\libharfbuzz.bc[0m
+[100%] [32m[1mLinking CXX static library E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\harfbuzz-2.4.0\libharfbuzz.bc[0m
+[100%] [32m[1mLinking CXX static library E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\harfbuzz-2.4.0\libharfbuzz.bc[0m
+[100%] [32m[1mLinking CXX static library E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\icu4c-64_1\libicu.bc[0m
+[100%] [32m[1mLinking CXX static library E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\icu4c-64_1\libicu.bc[0m
+[100%] [32m[1mLinking CXX static library E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\icu4c-64_1\libicu.bc[0m
+[100%] [32m[1mLinking C static library libogg.bc[0m
+[100%] [32m[1mLinking C static library libogg.bc[0m
+[100%] [32m[1mLinking C static library libogg.bc[0m
+[100%] [32m[1mLinking C static library libpng15.bc[0m
+[100%] [32m[1mLinking C static library libpng15.bc[0m
+[100%] [32m[1mLinking C static library libpng15.bc[0m
+[ 84%] [32m[1mLinking C static library libvorbis.bc[0m
+[ 96%] [32m[1mLinking C static library libvorbisfile.bc[0m
+[100%] [32m[1mLinking C static library libvorbisenc.bc[0m
+[ 84%] [32m[1mLinking C static library libvorbis.bc[0m
+[ 96%] [32m[1mLinking C static library libvorbisfile.bc[0m
+[100%] [32m[1mLinking C static library libvorbisenc.bc[0m
+[ 84%] [32m[1mLinking C static library libvorbis.bc[0m
+[ 96%] [32m[1mLinking C static library libvorbisfile.bc[0m
+[100%] [32m[1mLinking C static library libvorbisenc.bc[0m
+[100%] [32m[1mLinking C static library libopus.bc[0m
+[100%] [32m[1mLinking C static library libopus.bc[0m
+[100%] [32m[1mLinking C static library libopus.bc[0m
+[ 21%] [32m[1mLinking CXX static library PhysX3Vehicle_O2.bc[0m
+[ 22%] [32m[1mLinking CXX static library SimulationController_O2.bc[0m
+[ 45%] [32m[1mLinking CXX static library APEX_Legacy_O2.bc[0m
+[ 16%] [32m[1mLinking CXX static library PsFastXml_O2.bc[0m
+[ 16%] [32m[1mLinking CXX static library PxTask_O2.bc[0m
+[ 16%] [32m[1mLinking CXX static library PxFoundation_O2.bc[0m
+[ 41%] [32m[1mLinking CXX static library LowLevelDynamics_O2.bc[0m
+[ 70%] [32m[1mLinking CXX static library PhysX3Common_O2.bc[0m
+[ 72%] [32m[1mLinking CXX static library SimulationController_O2.bc[0m
+[ 72%] [32m[1mLinking CXX static library PhysX3Vehicle_O2.bc[0m
+[ 13%] [32m[1mLinking CXX static library LowLevelAABB_O3.bc[0m
+[ 13%] [32m[1mLinking CXX static library PhysX3CharacterKinematic_O3.bc[0m
+[ 13%] [32m[1mLinking CXX static library LowLevelCloth_O3.bc[0m
+[ 16%] [32m[1mLinking CXX static library LowLevelAABB_O3.bc[0m
+[ 16%] [32m[1mLinking CXX static library PhysX3CharacterKinematic_O3.bc[0m
+[ 16%] [32m[1mLinking CXX static library LowLevelCloth_O3.bc[0m
+[ 56%] [32m[1mLinking CXX static library SimulationController_O3.bc[0m
+[ 56%] [32m[1mLinking CXX static library PhysX3Common_O3.bc[0m
+[ 11%] [32m[1mLinking CXX static library RenderDebug.bc[0m
+[ 11%] [32m[1mLinking CXX static library PhysX3CharacterKinematic.bc[0m
+[ 11%] [32m[1mLinking CXX static library LowLevelCloth.bc[0m
+[ 11%] [32m[1mLinking CXX static library NvParameterized.bc[0m
+[ 11%] [32m[1mLinking CXX static library LowLevelAABB.bc[0m
+[ 33%] [32m[1mLinking CXX static library PhysX3Common.bc[0m
+[ 26%] [32m[1mLinking CXX static library PhysX3Vehicle.bc[0m
+[ 27%] [32m[1mLinking CXX static library SimulationController.bc[0m
+[100%] [32m[1mLinking C static library libz.bc[0m
+[100%] [32m[1mLinking C static library libz.bc[0m
+[100%] [32m[1mLinking C static library libz.bc[0m

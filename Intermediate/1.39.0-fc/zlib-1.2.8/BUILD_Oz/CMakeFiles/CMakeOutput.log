@@ -1,0 +1,88 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Windows - 10.0.19041 - AMD64
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe cmTC_bb583/fast && E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bb583.dir\build.make CMakeFiles/cmTC_bb583.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb583.dir/CheckIncludeFile.c.o
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat    -o CMakeFiles\cmTC_bb583.dir\CheckIncludeFile.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\zlib-1.2.8\BUILD_Oz\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_bb583.js
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bb583.dir\link.txt --verbose=1
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat      @CMakeFiles\cmTC_bb583.dir\objects1.rsp  -o cmTC_bb583.js 
+mingw32-make.exe[1]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe cmTC_b4809/fast && E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b4809.dir\build.make CMakeFiles/cmTC_b4809.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4809.dir/CheckIncludeFile.c.o
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat    -o CMakeFiles\cmTC_b4809.dir\CheckIncludeFile.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\zlib-1.2.8\BUILD_Oz\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_b4809.js
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b4809.dir\link.txt --verbose=1
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat      @CMakeFiles\cmTC_b4809.dir\objects1.rsp  -o cmTC_b4809.js 
+mingw32-make.exe[1]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe cmTC_8c1ab/fast && E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8c1ab.dir\build.make CMakeFiles/cmTC_8c1ab.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c1ab.dir/CheckIncludeFile.c.o
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat    -o CMakeFiles\cmTC_8c1ab.dir\CheckIncludeFile.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\zlib-1.2.8\BUILD_Oz\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_8c1ab.js
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8c1ab.dir\link.txt --verbose=1
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat      @CMakeFiles\cmTC_8c1ab.dir\objects1.rsp  -o cmTC_8c1ab.js 
+mingw32-make.exe[1]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe cmTC_8ee22/fast && E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8ee22.dir\build.make CMakeFiles/cmTC_8ee22.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ee22.dir/OFF64_T.c.o
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1   -o CMakeFiles\cmTC_8ee22.dir\OFF64_T.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\zlib-1.2.8\BUILD_Oz\CMakeFiles\CheckTypeSize\OFF64_T.c
+Linking C executable cmTC_8ee22.js
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8ee22.dir\link.txt --verbose=1
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat      @CMakeFiles\cmTC_8ee22.dir\objects1.rsp  -o cmTC_8ee22.js 
+mingw32-make.exe[1]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe cmTC_365dd/fast && E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\cmTC_365dd.dir\build.make CMakeFiles/cmTC_365dd.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_365dd.dir/CheckFunctionExists.c.o
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles\cmTC_365dd.dir\CheckFunctionExists.c.o   -c "C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_365dd.js
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_365dd.dir\link.txt --verbose=1
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  -DCHECK_FUNCTION_EXISTS=fseeko    @CMakeFiles\cmTC_365dd.dir\objects1.rsp  -o cmTC_365dd.js 
+warning: unexpected number of arguments 0 in call to '__fseeko', should be 3
+warning: asm2wasm adding operands in call from $_main to $___fseeko (this is likely due to undefined behavior in C, like defining a function one way and calling it in another, which is important to fix)
+mingw32-make.exe[1]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe cmTC_6d54e/fast && E:/TPS_HDD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6d54e.dir\build.make CMakeFiles/cmTC_6d54e.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d54e.dir/CheckIncludeFile.c.o
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat    -o CMakeFiles\cmTC_6d54e.dir\CheckIncludeFile.c.o   -c E:\TPS_HDD\UE4-HTML5-TPS\Intermediate\1.39.0-fc\zlib-1.2.8\BUILD_Oz\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_6d54e.js
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6d54e.dir\link.txt --verbose=1
+E:\TPS_HDD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat      @CMakeFiles\cmTC_6d54e.dir\objects1.rsp  -o cmTC_6d54e.js 
+mingw32-make.exe[1]: Leaving directory 'E:/TPS_HDD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/zlib-1.2.8/BUILD_Oz/CMakeFiles/CMakeTmp'
+
+
+
