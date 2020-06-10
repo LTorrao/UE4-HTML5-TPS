@@ -1,0 +1,56 @@
+"C:\Program Files\CMake\bin\cmake.exe" -SD:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8 -BD:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\zlib-1.2.8\BUILD_O3 --check-build-system CMakeFiles\Makefile.cmake 0
+D:/TPS_SSD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\Makefile2 zlib
+mingw32-make.exe[1]: Entering directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/zlib-1.2.8/BUILD_O3'
+"C:\Program Files\CMake\bin\cmake.exe" -SD:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8 -BD:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\zlib-1.2.8\BUILD_O3 --check-build-system CMakeFiles\Makefile.cmake 0
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_progress_start D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\zlib-1.2.8\BUILD_O3\CMakeFiles 16
+D:/TPS_SSD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\Makefile2 CMakeFiles/zlib.dir/all
+mingw32-make.exe[2]: Entering directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/zlib-1.2.8/BUILD_O3'
+D:/TPS_SSD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\zlib.dir\build.make CMakeFiles/zlib.dir/depend
+mingw32-make.exe[3]: Entering directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/zlib-1.2.8/BUILD_O3'
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8 D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8 D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\zlib-1.2.8\BUILD_O3 D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\zlib-1.2.8\BUILD_O3 D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\zlib-1.2.8\BUILD_O3\CMakeFiles\zlib.dir\DependInfo.cmake --color=
+Dependee "D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\zlib-1.2.8\BUILD_O3\CMakeFiles\zlib.dir\DependInfo.cmake" is newer than depender "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/zlib-1.2.8/BUILD_O3/CMakeFiles/zlib.dir/depend.internal".
+Dependee "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/zlib-1.2.8/BUILD_O3/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/zlib-1.2.8/BUILD_O3/CMakeFiles/zlib.dir/depend.internal".
+[35m[1mScanning dependencies of target zlib[0m
+mingw32-make.exe[3]: Leaving directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/zlib-1.2.8/BUILD_O3'
+D:/TPS_SSD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\zlib.dir\build.make CMakeFiles/zlib.dir/build
+mingw32-make.exe[3]: Entering directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/zlib-1.2.8/BUILD_O3'
+[ 18%] [32mBuilding C object CMakeFiles/zlib.dir/gzclose.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/zlib.dir/gzwrite.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/zlib.dir/crc32.c.o[0m
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\gzclose.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\gzclose.c
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\gzwrite.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\gzwrite.c
+[ 37%] [32mBuilding C object CMakeFiles/zlib.dir/adler32.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/zlib.dir/gzlib.c.o[0m
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\adler32.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\adler32.c
+[ 50%] [32mBuilding C object CMakeFiles/zlib.dir/deflate.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/zlib.dir/compress.c.o[0m
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\crc32.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\crc32.c
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\deflate.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\deflate.c
+[ 50%] [32mBuilding C object CMakeFiles/zlib.dir/inftrees.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/zlib.dir/uncompr.c.o[0m
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\gzlib.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\gzlib.c
+[ 62%] [32mBuilding C object CMakeFiles/zlib.dir/infback.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/zlib.dir/gzread.c.o[0m
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\compress.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\compress.c
+[ 87%] [32mBuilding C object CMakeFiles/zlib.dir/zutil.c.o[0m
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\gzread.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\gzread.c
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\infback.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\infback.c
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\inftrees.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\inftrees.c
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\uncompr.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\uncompr.c
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\zutil.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\zutil.c
+[ 93%] [32mBuilding C object CMakeFiles/zlib.dir/inflate.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/zlib.dir/trees.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/zlib.dir/inffast.c.o[0m
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\inflate.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\inflate.c
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\inffast.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\inffast.c
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -D_LARGEFILE64_SOURCE=1 @CMakeFiles/zlib.dir/includes_C.rsp -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration -Wno-shift-negative-value   -o CMakeFiles\zlib.dir\trees.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\BatchFiles\ThirdParty\zlib\zlib-1.2.8\trees.c
+[100%] [32m[1mLinking C static library libz.bc[0m
+"C:\Program Files\CMake\bin\cmake.exe" -P CMakeFiles\zlib.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\zlib.dir\link.txt --verbose=1
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -o libz.bc  @CMakeFiles\zlib.dir\objects1.rsp
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+mingw32-make.exe[3]: Leaving directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/zlib-1.2.8/BUILD_O3'
+[100%] Built target zlib
+mingw32-make.exe[2]: Leaving directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/zlib-1.2.8/BUILD_O3'
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_progress_start D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\zlib-1.2.8\BUILD_O3\CMakeFiles 0
+mingw32-make.exe[1]: Leaving directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/zlib-1.2.8/BUILD_O3'

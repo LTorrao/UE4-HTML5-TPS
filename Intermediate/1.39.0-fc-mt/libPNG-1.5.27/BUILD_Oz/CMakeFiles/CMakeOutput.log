@@ -1,0 +1,22 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Windows - 10.0.19041 - AMD64
+Performing C SOURCE FILE Test HAVE_LD_VERSION_SCRIPT succeeded with the following output:
+Change Dir: D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libPNG-1.5.27/BUILD_Oz/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/TPS_SSD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe cmTC_d79b7/fast && D:/TPS_SSD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d79b7.dir\build.make CMakeFiles/cmTC_d79b7.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libPNG-1.5.27/BUILD_Oz/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d79b7.dir/src.c.o
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat   -DHAVE_LD_VERSION_SCRIPT -Wl,--version-script='D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libPNG-1.5.27/BUILD_Oz/conftest.map'   -o CMakeFiles\cmTC_d79b7.dir\src.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\libPNG-1.5.27\BUILD_Oz\CMakeFiles\CMakeTmp\src.c
+shared:WARNING: ignoring unsupported linker flag: `--version-script=D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libPNG-1.5.27/BUILD_Oz/conftest.map`
+Linking C executable cmTC_d79b7.js
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d79b7.dir\link.txt --verbose=1
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  -DHAVE_LD_VERSION_SCRIPT -Wl,--version-script='D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libPNG-1.5.27/BUILD_Oz/conftest.map'    @CMakeFiles\cmTC_d79b7.dir\objects1.rsp  -o cmTC_d79b7.js 
+shared:WARNING: ignoring unsupported linker flag: `--version-script='D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libPNG-1.5.27/BUILD_Oz/conftest.map'`
+mingw32-make.exe[1]: Leaving directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libPNG-1.5.27/BUILD_Oz/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+void sym(void) {}
+void sym2(void) {}
+int main(void) {return 0;}
+

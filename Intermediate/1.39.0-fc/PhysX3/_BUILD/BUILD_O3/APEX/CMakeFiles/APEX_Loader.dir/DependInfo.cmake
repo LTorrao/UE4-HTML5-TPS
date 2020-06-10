@@ -1,0 +1,118 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/module/loader/src/ModuleLoaderImpl.cpp" "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/CMakeFiles/APEX_Loader.dir/D_/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/module/loader/src/ModuleLoaderImpl.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "Clang")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "APEX_LINUX_SHARED_LIBRARIES=0"
+  "APEX_SHIPPING"
+  "APEX_UE4=1"
+  "ENABLE_TEST=0"
+  "HTML5"
+  "NDEBUG"
+  "NV_PARAMETERIZED_HIDE_DESCRIPTIONS=1"
+  "NX_FOUNDATION_STATICLIB"
+  "NX_USE_SDK_STATICLIBS"
+  "PX_SIMD_DISABLED"
+  "_CRT_NONSTDC_NO_DEPRECATE"
+  "_CRT_SECURE_NO_DEPRECATE"
+  "_LIB"
+  "__HTML5__"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/PhysX3"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/loader"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/clothing"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/legacy"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/destructible"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/basicfs"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/basicios"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/emitter"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/fieldsampler"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/forcefield"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/iofx"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/pxparticleios"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/particles"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/turbulencefs"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../include/wind"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PxShared/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PxShared/include/filebuf"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PxShared/include/foundation"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PxShared/include/pvd"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PxShared/include/task"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PxShared/src/fastxml/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PxShared/src/filebuf/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PxShared/src/foundation/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PxShared/src/pvd/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../common/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../common/include/autogen"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../framework/public"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../framework/public/PhysX3"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/clothing_legacy/public"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/clothing/public"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/common/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/destructible_legacy/public"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/destructible/public"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/framework_legacy/public"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/legacy/public"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/loader/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/loader/public"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../NvParameterized/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../NvParameterized/public"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../shared/general/FoundationUnported/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../shared/general/RenderDebug/public"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../shared/general/shared"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../shared/general/shared/inparser/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/APEX_1.4/compiler/cmake/html5/../../../module/../shared/internal/include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Include/characterdynamic"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Include/characterkinematic"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Include/common"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Include/cooking"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Include/deformable"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Include/extensions"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Include/geometry"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Include/particles"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Include/vehicle"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Source/GeomUtils/headers"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/common/../../../../Include"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/common/../../../../Include/common"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/common/../../../../Include/geometry"
+  "D:/TPS_SSD/UE4-HTML5-TPS/UE4_ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/common/../../../../Include/GeomUtils"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/CMakeFiles/APEX_Destructible.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/CMakeFiles/APEX_Legacy.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/CMakeFiles/ApexCommon.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/CMakeFiles/ApexFramework.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/CMakeFiles/NvParameterized.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/pxshared_bin/CMakeFiles/PsFastXml.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/pxshared_bin/CMakeFiles/PxFoundation.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/pxshared_bin/CMakeFiles/PxPvdSDK.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/CMakeFiles/PhysX.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/CMakeFiles/PhysXCommon.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/CMakeFiles/LowLevel.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/CMakeFiles/LowLevelAABB.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/CMakeFiles/LowLevelCloth.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/CMakeFiles/LowLevelDynamics.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/CMakeFiles/LowLevelParticles.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/CMakeFiles/SceneQuery.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/CMakeFiles/SimulationController.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/CMakeFiles/ApexShared.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/physx_bin/pxshared_bin/CMakeFiles/PxTask.dir/DependInfo.cmake"
+  "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc/PhysX3/_BUILD/BUILD_O3/APEX/CMakeFiles/RenderDebug.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

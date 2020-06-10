@@ -1,0 +1,26 @@
+"C:\Program Files\CMake\bin\cmake.exe" -SD:\TPS_SSD\UE4-HTML5-TPS\UE4_ThirdParty\Ogg\libogg-1.2.2 -BD:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\libogg-1.2.2\BUILD_O3 --check-build-system CMakeFiles\Makefile.cmake 0
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_progress_start D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\libogg-1.2.2\BUILD_O3\CMakeFiles D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\libogg-1.2.2\BUILD_O3\CMakeFiles\progress.marks
+D:/TPS_SSD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\Makefile2 all
+mingw32-make.exe[1]: Entering directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libogg-1.2.2/BUILD_O3'
+D:/TPS_SSD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\ogg.dir\build.make CMakeFiles/ogg.dir/depend
+mingw32-make.exe[2]: Entering directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libogg-1.2.2/BUILD_O3'
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_depends "MinGW Makefiles" D:\TPS_SSD\UE4-HTML5-TPS\UE4_ThirdParty\Ogg\libogg-1.2.2 D:\TPS_SSD\UE4-HTML5-TPS\UE4_ThirdParty\Ogg\libogg-1.2.2 D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\libogg-1.2.2\BUILD_O3 D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\libogg-1.2.2\BUILD_O3 D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\libogg-1.2.2\BUILD_O3\CMakeFiles\ogg.dir\DependInfo.cmake --color=
+Dependee "D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\libogg-1.2.2\BUILD_O3\CMakeFiles\ogg.dir\DependInfo.cmake" is newer than depender "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libogg-1.2.2/BUILD_O3/CMakeFiles/ogg.dir/depend.internal".
+Dependee "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libogg-1.2.2/BUILD_O3/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libogg-1.2.2/BUILD_O3/CMakeFiles/ogg.dir/depend.internal".
+[35m[1mScanning dependencies of target ogg[0m
+mingw32-make.exe[2]: Leaving directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libogg-1.2.2/BUILD_O3'
+D:/TPS_SSD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/mingw/7.1.0_64bit/bin/mingw32-make.exe  -f CMakeFiles\ogg.dir\build.make CMakeFiles/ogg.dir/build
+mingw32-make.exe[2]: Entering directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libogg-1.2.2/BUILD_O3'
+[ 33%] [32mBuilding C object CMakeFiles/ogg.dir/src/bitwise.c.o[0m
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/ogg.dir/includes_C.rsp -ID:/TPS_SSD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/fastcomp/emscripten/system/include/libc -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration   -o CMakeFiles\ogg.dir\src\bitwise.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\UE4_ThirdParty\Ogg\libogg-1.2.2\src\bitwise.c
+[ 66%] [32mBuilding C object CMakeFiles/ogg.dir/src/framing.c.o[0m
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat  @CMakeFiles/ogg.dir/includes_C.rsp -ID:/TPS_SSD/UE4-HTML5-TPS/HTML5_Build/emsdk/emsdk-1.39.0-fastcomp/fastcomp/emscripten/system/include/libc -O3 -DNDEBUG -s WASM=1 -s USE_PTHREADS -Wno-implicit-function-declaration   -o CMakeFiles\ogg.dir\src\framing.c.o   -c D:\TPS_SSD\UE4-HTML5-TPS\UE4_ThirdParty\Ogg\libogg-1.2.2\src\framing.c
+[100%] [32m[1mLinking C static library libogg.bc[0m
+"C:\Program Files\CMake\bin\cmake.exe" -P CMakeFiles\ogg.dir\cmake_clean_target.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\ogg.dir\link.txt --verbose=1
+D:\TPS_SSD\UE4-HTML5-TPS\HTML5_Build\emsdk\emsdk-1.39.0-fastcomp\fastcomp\emscripten\emcc.bat -o libogg.bc  @CMakeFiles\ogg.dir\objects1.rsp
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+mingw32-make.exe[2]: Leaving directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libogg-1.2.2/BUILD_O3'
+[100%] Built target ogg
+mingw32-make.exe[1]: Leaving directory 'D:/TPS_SSD/UE4-HTML5-TPS/Intermediate/1.39.0-fc-mt/libogg-1.2.2/BUILD_O3'
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_progress_start D:\TPS_SSD\UE4-HTML5-TPS\Intermediate\1.39.0-fc-mt\libogg-1.2.2\BUILD_O3\CMakeFiles 0
